@@ -1,0 +1,47 @@
+{
+  "name": "iframe-capture",
+  "version": "1.0.0",
+  "description": "一个强大的 iframe 截图工具包，支持截图、PDF 生成和图片下载",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:all": "npm run build && npm publish"
+  },
+  "keywords": [
+    "iframe",
+    "screenshot",
+    "pdf",
+    "capture",
+    "html2canvas",
+    "frontend",
+    "typescript"
+  ],
+  "author": "Ulanxx",
+  "license": "MIT",
+  "dependencies": {
+    "html2canvas-pro": "^1.5.11",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "html2canvas-pro": "^1.0.0",
+    "jspdf": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/iframeCapture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/iframeCapture/issues"
+  },
+  "homepage": "https://github.com/yourusername/iframeCapture#readme"
+}
