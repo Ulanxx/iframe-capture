@@ -1,6 +1,6 @@
 {
   "name": "iframe-capture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个强大的 iframe 截图工具包，支持截图、PDF 生成和图片下载",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
